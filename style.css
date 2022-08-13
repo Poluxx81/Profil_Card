@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px;
+}
+
+.profil-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 280px;
+    width: 240px;
+    box-shadow: 0 4px 8px 0 rgba(217, 28, 28, 0.2);
+}
+
+.card-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 174, 52);
+    width: 240px;
+    height: 50px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(217, 28, 28, 0.2);
+}
+
+.description{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
